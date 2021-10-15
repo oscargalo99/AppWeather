@@ -1,0 +1,30 @@
+#formControlInput{
+    margin-bottom: 1em;
+}
+
+.titulos {
+  text-align: center;
+  font-size: 15px;
+}
+
+.card { 
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+  background-color: $background-color;
+  transition: 0.3s;
+}
+.container .card {
+  justify-content: center;
+}
+.ciudades {
+  margin-top: 2em;
+  padding-top: 1em;
+  text-align: center;
+  justify-content: center;
+  @include Padding-xy(1em,2em);
+  .card {
+    background-color: $primary-color !important;
+    color: $font-color;
+  }
+}
